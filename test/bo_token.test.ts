@@ -15,7 +15,7 @@ describe("BoToken", async () => {
   let boToken: Contract;
 
   // Total supply values
-  const totalSupply = BigNumber.from(10).pow(18).mul(1000000000); // 1 billion with 18 decimals
+  const totalSupply = BigNumber.from(10).pow(18).mul(100000000000); // 100 billion with 18 decimals
 
   beforeEach(async () => {
     [owner, alice, bob] = await ethers.getSigners();
